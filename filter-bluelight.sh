@@ -10,7 +10,7 @@ main() {
   done
   
   if (("${#missing}")); then
-    print "> Error: Missing "${(@)missing}" >&2
+    print "> Error: Missing ${(@)missing}" >&2
     return 1
   fi
   
