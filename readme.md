@@ -7,6 +7,8 @@
 ### Guidelines
 
 - Minimize use of `fork()`
+- Maximum of one file
+- Documentation is in comment header
 
 ### Script Types
 
@@ -25,7 +27,8 @@
 
 ## Usage
 
-Add to path without setting env var
+Add to path without setting env var to PATH
 ```sh
+find ~/code/scripts -type f -iname '*.sh' -exec chmod +x "{}" \;
 ln -s ~/code/scripts ~/.local/bin
 ```
