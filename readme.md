@@ -15,6 +15,7 @@ ln -s ~/code/scripts ~/.local/bin
 - Prefer `sh` over `zsh` 
 - Maximum of one file per script
 - Documentation is in comment header
+- `verb-name.sh` naming convention
 
 ### Categories
 
