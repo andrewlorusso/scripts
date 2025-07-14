@@ -1,0 +1,1 @@
+# Use git submodules to treat your scripts repo as a separate, linked project inside your main dotfiles repo, keeping their histories independent but allowing you to clone everything at once with the git clone --recurse-submodules command.
